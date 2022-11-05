@@ -9,9 +9,8 @@
 html, body {
     height: 100vh;
     width: 100vw;
-    background: url('../imagens/fundo-madeira.jpg') no-repeat top center;
+    background: url('../imagens/espaco.jpg') center center no-repeat fixed;
     background-size: cover;
-    background-attachment: fixed;
 }
 
 main {
@@ -41,8 +40,6 @@ main {
 .redes-sociais {
     display: flex;
     flex-direction: column;
-    align-items: left;
-    position: absolute;
 }
 
 .redes-sociais img {
